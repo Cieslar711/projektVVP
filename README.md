@@ -7,7 +7,7 @@ Tento projekt implementuje a vizualizuje **Mandelbrotovu** a **Juliovu** množin
 ## Hlavní funkce knihovny
 
 - Výpočet Mandelbrotovy množiny v daném rozsahu
-- Výpočet Juliovi množiny v daném rozsahu
+- Výpočet Juliovy množiny v daném rozsahu
 - Interaktivní vizualizace s ovládacími prvky (slidery, radio tlačítka, range slidery).
 - Možnost měnit barevné schéma vykreslení.
 
