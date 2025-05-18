@@ -40,6 +40,8 @@ def julius_set(c: complex, x_min: float, x_max: float, y_min: float, y_max: floa
 def vizualizace_julius(c: complex, x_min: float, x_max: float, y_min: float, y_max: float, n: int, k: int):
     """
        Interaktivní vizualizace Juliovy množiny pomocí matplotlib.
+       Funkce využívá pomocné funkce jako je chang_cmap která slouží ke změně barevného schématu za využití RadioButtons
+        a update, která slouží ke změně vykreslení po změně jednoho ze sliderů(počet iterací, rozsah x_min, x_max, y_min, y_max a komplexní konstanty c)
 
        Args:
            c (complex): Komplexní konstanta.
@@ -50,9 +52,6 @@ def vizualizace_julius(c: complex, x_min: float, x_max: float, y_min: float, y_m
            n (int): Počet bodů.
            k (int): Maximální počet iterací.
 
-       Function:
-           change_cmap - slouží ke změně barevného schématu za využití RadioButtons z knihovny matplotlib.widgets
-           update -  slouží ke změně vykreslení po změně jednoho ze sliderů(počet iterací, rozsah x_min, x_max, y_min, y_max, komplexní konstanta c)
 
 
        Returns:
