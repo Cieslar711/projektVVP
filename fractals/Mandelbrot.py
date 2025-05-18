@@ -38,7 +38,7 @@ def mandelbrot_set(x_min: float, x_max: float, y_min: float, y_max: float, n: in
 def vizualizace_mandelbrot(x_min: float, x_max: float, y_min: float, y_max: float, n: int, k: int):
     """
        Interaktivní vizualizace Mandelbrotovy množiny pomocí matplotlib.
-       Funkce využívá pomocné funkce jako je chang_cmap která slouží ke změně barevného schématu za využití RadioButtons
+       Funkce využívá pomocné funkce jako je change_cmap která slouží ke změně barevného schématu za využití RadioButtons
         a update, která slouží ke změně vykreslení po změně jednoho ze sliderů(počet iterací, rozsah x_min, x_max, y_min, y_max)
 
        Args:
